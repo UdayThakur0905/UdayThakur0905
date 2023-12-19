@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a = 100;
+    int b = 200;
+
+    printf("\n The address of a : %p",&a);
+    printf("\n The address of a : %X",&a);
+
+    printf("\n The address of b : %p",&b);
+    printf("\n The address of b : %X",&b);
+    
+return 0;
+}
